@@ -1,0 +1,74 @@
+.nft-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.nft-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.7);
+    width: 100vw;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+.nft-card-header{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+}
+.nft-card-image{
+    width: 100vw;
+    max-width: 20rem;
+    aspect-ratio: 1;
+}
+.nft-card-id{
+    font-size: medium;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.nft-card-floor-price{
+    font-size: small;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+}
+.nft-card-traits{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;   
+}
+
+.nft-card-trait{
+    font-size: larger;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+    min-width: 12rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.nft-trait{
+    font-weight: normal;
+    font-size: small;
+}
+
+.nft-card-token-type{
+    font-size: small;
+    font-weight: normal;
+}
+
+.nft-trait-rarity{
+    font-size: small;
+    font-weight: normal;
+}

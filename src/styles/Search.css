@@ -1,0 +1,41 @@
+.search{
+    background-color: var(--primary-search-color);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search{
+    max-width: 30rem;
+    padding: 0.5rem;
+}
+
+.search-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    scale: 1.1;
+}
+
+.search-input{
+    max-width: 30rem;
+    padding: 0.5rem;
+}
+
+.search-group{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.margin-left{
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+

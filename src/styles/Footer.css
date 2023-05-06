@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--primary-footer-color);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.addNetworkBtn{
+    border: none;
+    background-color: var(--primary-btn-color);
+    color: var(--secondary-font-color);
+    font-weight: 600;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.addNetworkBtn::before{
+    content: "🐺 ";
+}
+
+.addNetworkBtn:hover{
+    background-color: var(--secondary-btn-color);
+    color: var(--primary-font-color);
+}

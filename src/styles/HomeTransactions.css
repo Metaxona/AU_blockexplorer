@@ -1,0 +1,46 @@
+.home-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-bottom: 5rem;
+}
+
+.tx-home-container{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tx-home-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.hr{
+    width: 100%;
+    background-color: var(--secondary-font-color);
+}
+
+.icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.card{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+    padding: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    font-size: medium;
+    font-weight: 600;
+}
+

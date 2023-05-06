@@ -1,0 +1,44 @@
+.addressinfo{
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+.address-card{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.address-card-header{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.transaction-history {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 0 3px black;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.history-button{
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 3px black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.history-button:hover{
+    scale: 1.1;
+}
+
+.history-title{
+    font-size: larger;
+    font-weight: bold;
+}

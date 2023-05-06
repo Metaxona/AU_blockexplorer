@@ -1,0 +1,12 @@
+.notfound{
+    color: var(--secondary-font-color);
+    color: var(--secondary-font-color);
+    opacity: 0.5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 80vh;
+    margin-bottom: 1rem;
+}
